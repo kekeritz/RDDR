@@ -1,0 +1,1 @@
+Suffiziens Strategie
