@@ -1,0 +1,11 @@
+<div class="preview">
+  {% for item in post.lightbox | array_to_sentence_string %}
+  <div class="previewtile">
+    <a href="/RDDR/assets/images/{{ item }}" data-lightbox="{{ post.title }}">
+      <img class="previewimage" src="/RDDR/assets/images/thumbs/{{ item }}"/>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+

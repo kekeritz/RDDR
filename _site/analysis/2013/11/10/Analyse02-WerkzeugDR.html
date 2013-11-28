@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Werkzeug Design Radar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le favicon -->
+    <link rel="shortcut icon" type="image/png" href="">
+    <!-- own css-->
+    <link rel="stylesheet" type="text/css" href="/RDDR/assets/css/main.css">
+  </head>
+  <body id="/analysis/2013/11/10/Analyse02-WerkzeugDR">
+
+    <header>
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/RDDR/index.html">RDDR</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+
+				<li><a href="/RDDR/RDDR-Einleitung.html">Einleitung</a></li>
+				<li><a href="/RDDR/RDDR-Analyse.html">Analyse</a></li>
+				<li><a href="/RDDR/RDDR-These.html">These</a></li>
+				<li><a href="/RDDR/RDDR-Methode.html">Methode</a></li>
+				<li><a href="/RDDR/RDDR-Glossar.html">Glossar</a></li>
+				<li><a href="/RDDR/RDDR-Impressum.html">Impressum</a></li>
+				<li><a href="/RDDR/RDDR-Gliederung.html">Gliederung</a></li>
+				<li><a href="/RDDR/RDDR-Linksammlung.html">Linksammlung</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h4></h4>
+  		<p>Das Werkzeug basiert derzeit auf einer Wordpress Installation, was durchaus ein guter Anfang ist, nach meiner Meinung jedoch auf lange Sicht, mehr Nach-, als Vorteile mit sich bringt. Ich denke, es eignet sich gut zum Befüllen einer Datenbank mit Designobjekten, die Vorkonfektioniertheit des Wordpress Frameworks schränkt aber die kreative Umsetzung von Werkzeugen, wie dem Design Radar, stark ein. Jegliche Interaktion fühlt sich sehr <em>bloggig</em> an.</p>
+
+<h4>Die Eingabe</h4>
+
+<p>Was am für mich anfangs sehr verwirrend war, ist der Umstand, dass der User eigentlich im Front End arbeiten soll. Die Entscheidung ist für mich nachvollziehbar, da das Wordpress Back End zu viele Optionen anbietet, als dass man damit schnell und einfach Objekte einpflegen könnte, und das Layout eines Wordpress Back Ends ändern möchte man eigentlich auch nicht, wenn es nicht unbedingt sein muss. Deshalb muss man zuerst auf das Front End wechseln, wenn man sich in den Design Radar eingeloggt hat.</p>
+
+<p>Der User landet auf der <em>Objects</em> Ansicht. Es gibt hier die Möglichkeit sich alle Objekte des Design Radars anzuschauen. An der Seite haben wir Filter Optionen. Unter dem Menüpunkt <em>Cluster</em> Kann sich der User alle Cluster des Design Radar anzeigen lassen und unter <em>MyRadar</em> kann der User seine eigenen Objekte und Cluster verwalten und neu erstellen.</p>
+
+<h5>Objekt</h5>
+
+<p>Die Eingabemaske verlangt eine Fülle von Parameter, die ich der Vollständigkeit halber im Glossar unter Objekt aufliste. Sehr Praktisch ist, dass dem Benutzer für einige Felder (u.a. Farben, Designer, Material) ein Katalog zur Verfügung steht, aus dem er schon gelistetes auswählen kann. Dies stellt sich einem Auto-Complete-Drop-Down-Menu dar. Besondere Beachtung verdienen die beiden semantischen Differentiale. Unter den Punkten <em>Räumlich physikalische Wirkung</em> und <em>Assoziative Wirkung</em> finden wir einmal 8 und einmal 16 Extrempaare, zwischen denen wir, mithilfe eines Schiebereglers auf einer 5er-Skala, differenzieren können. Unüblich, aber möglich, ist die Option keine Angaben zu machen. In diesem Fall wird das betreffende Extrempaar ausgegraut. Insgesamt kann der Design Radar User Angaben zu 35 Parametern machen.</p>
+
+<h5>Cluster</h5>
+
+<p>Wenn ich einen neuen Cluster erstellt habe, sind erst einmal alle Objekte in Ihm enthalten (Big Bug!!!). Das ändert sich erst, wenn ich andernorts ein Objekt meinem Cluster hinzugefügt habe. Das geht unter der Ansicht <em>Objects</em> und wird unter dem nachfolgenden Punkt beschrieben. Grob kann man den Cluster in drei Bereiche einteilen: die <em>Objekte</em>, den generativen Teil <em>Auffälligkeiten</em> und den editorial Teil. Die <em>Objekte</em> werden durch das ihnen eigene Bild repräsentiert, durch einen Klick darauf gelangt man zur Objektanzeige. Der Bereich <em>Auffälligkeiten</em> generiert sich durch die Parameter der hinzugefügten Objekte. Leider werden nur die Parameter <em>Designer, Materialeigenschaften, Farbpalette und Assoziative Tags</em> in Betracht gezogen. Der editorial Teil führt die Punkte auf, die wir schon von der InDesign Vorlage her kennen.</p>
+
+<h4>Die Verwaltung</h4>
+
+<p>Sehr wordpress-typisch mutet die Verwaltung der Objekte an. In einem Raster werden die Objekte durch ihre Fotos repräsentiert. Wenn der User mit der Maus über ein Objekt fährt, erhält er die Möglichkeit durch einen Klick auf den entsprechenden Knopf, das Objekt zu editieren, was soviel heißt, dass er in die vorher beschriebene Eingabemaske zurückkehrt und Parameter verändert oder vervollständigt. Um nach Clustern zu suchen, hat der Benutzer die Möglichkeit, Objekte anhand von 4 Parametern (Herstellungszeitraum, Form, Material, Tags) zu filtern. Die verbleibenden Objekte kann er dann zu einem seiner Cluster hinzufügen.</p>
+
+<h4>Die Ausgabe</h4>
+
+<p>Es gibt derzeit keine wirklich gestaltete Ausgabe aus dem Werkzeug heraus. Man kann sich alle Objekte und Cluster anschauen, allerdings unterscheidet sich diese Darstellung nicht großartig von der Eingabemaske. Der letzte Stand der Dinge ist, dass die gesammelten Erkenntnisse und Objekte des Clusters in die bereits erwähnte InDesign-Vorlage übertragen und so als Poster ausgedruckt werden.</p>
+
+<p>Anders als bei der analogen Methodik ist man hier sehr allein mit seinen Objekten, Clustern und den dahinter stehenden Überlegungen. Der spielerische Aspekt geht, aufgrund der fehlenden haptischen Repräsentation der Objekte, verloren. Eine Arrangement der Objekte nach eigener Vorstellung ist in der aktuellen Konfiguration nicht möglich. Hingegen werden leider auch nicht die Vorzüge des digitalen Mediums genutzt. Beispielsweise finden die semantischen Differentiale keine Erwähnung im Cluster, was in Hinsicht auf die Menge der dort abgefragt Parameter sehr schade ist.</p>
+
+		</div>
+	</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/RDDR/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/RDDR/assets/js/lightbox-2.6.min.js"></script>
+
+    <script type="text/javascript" src="/RDDR/assets/js/main-ck.js"></script>
+  </body>
+</html>

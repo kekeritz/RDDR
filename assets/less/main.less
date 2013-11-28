@@ -1,0 +1,38 @@
+@import 'bootstrap-costum.less';
+// @import 'bootstrap-theme.less';
+@import 'lightbox.less';
+
+.sidebar{
+	overflow: hidden;
+	margin-bottom: 3em;
+
+	li{
+		float: left;
+		list-style-type: none;
+		margin-right: 2em;
+		margin-bottom: .5em;
+	}
+
+	@media (min-width: 992px) {
+		position: fixed;
+		width: 20%;
+		li{
+			float: none;
+		}
+	}	
+}
+
+.previewtile{
+	width: 25%;
+	height: auto;
+	overflow: hidden;
+	padding: .25em;
+	display: inline-block;
+	margin-bottom: .25em;
+
+
+	@media (min-width: 760px){
+		width: 12.5%;
+
+	}
+}
