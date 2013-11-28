@@ -1,6 +1,5 @@
-
 function init(){
-	$(".collapse").collapse()
+	$(".collapse:not(navbar-collapse)").collapse()
 }
 
 onload=function (){
