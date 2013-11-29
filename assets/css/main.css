@@ -6316,15 +6316,8 @@ body:after {
   }
 }
 .previewtile {
-  width: 25%;
-  height: auto;
-  overflow: hidden;
-  padding: .25em;
-  display: inline-block;
-  margin-bottom: .25em;
+  margin-bottom: .5em;
 }
-@media (min-width: 760px) {
-  .previewtile {
-    width: 12.5%;
-  }
+.closeButton {
+  margin-top: -0.75em;
 }
