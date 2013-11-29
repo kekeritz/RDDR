@@ -14,7 +14,7 @@ id: home
 
 <div class="container">
 	<div class="row">
-		{% for page in site.pages %}
+		{% for page in site.pages | sort: ascending %}
 		{% if page.category == 'index' %}
 		<div class="col-md-3">
 			<h2>{{ page.title }}</h2>
