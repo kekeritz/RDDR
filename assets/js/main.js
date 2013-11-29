@@ -1,6 +1,6 @@
 
 function init(){
-	$(".collapse").collapse()
+	$("collapse").collapse()
 }
 
 onload=function (){
