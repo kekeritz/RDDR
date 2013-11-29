@@ -7,33 +7,23 @@ id: home
 <div class="jumbotron">
 	<div class="container">
 		<h1>{{ page.title }}</h1>
-		<p>Diese Seite dient der Organisation meiner Bachelor Thesis.</p>
-		<p><a class="btn btn-primary btn-lg" role="button" href="/RDDR/RDDR-Analyse.html">Starten Sie hier! &raquo;</a></p>
+		<p>Diese Seite dient der Organisation und Dokumentation meiner Bachelor Thesis.</p>
+		<p><a class="btn btn-primary btn-lg" role="button" href="/RDDR/RDDR-01-Einleitung.html">Starten Sie hier! &raquo;</a></p>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row">
+		{% for page in site.pages %}
+		{% if page.category == 'index' %}
 		<div class="col-md-3">
-			<h2>Einleitung</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque ipsum voluptatum reprehenderit voluptatibus! Quidem, quos, cupiditate! Consequuntur, et, veritatis consectetur obcaecati esse voluptates a ipsum amet vero facere assumenda.</p>
-			<p><a class="btn btn-default" href="/RDDR/RDDR-Einleitung.html" role="button">Mehr dazu &raquo;</a></p>
+			<h2>{{ page.title }}</h2>
+			<p>
+				{{ page.content | truncate: 160 }} 
+				<a class="btn btn-default btn-xs" href="/RDDR{{ page.url }}" role="button"> … </a>
+			</p>
 		</div>
-		<div class="col-md-3">
-			<h2>Analyse</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque ipsum voluptatum reprehenderit voluptatibus! Quidem, quos, cupiditate! Consequuntur, et, veritatis consectetur obcaecati esse voluptates a ipsum amet vero facere assumenda.</p>
-			<p><a class="btn btn-default" href="/RDDR/RDDR-Analyse.html" role="button">Mehr dazu &raquo;</a></p>
-		</div>
-		<div class="col-md-3">
-			<h2>These</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque ipsum voluptatum reprehenderit voluptatibus! Quidem, quos, cupiditate! Consequuntur, et, veritatis consectetur obcaecati esse voluptates a ipsum amet vero facere assumenda.</p>
-			<p><a class="btn btn-default" href="/RDDR/RDDR-These.html" role="button">Mehr dazu &raquo;</a></p>
-		</div>
-		<div class="col-md-3">
-			<h2>Methode</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque ipsum voluptatum reprehenderit voluptatibus! Quidem, quos, cupiditate! Consequuntur, et, veritatis consectetur obcaecati esse voluptates a ipsum amet vero facere assumenda.</p>
-			<p><a class="btn btn-default" href="/RDDR/RDDR-Methode.html" role="button">Mehr dazu &raquo;</a></p>
-		</div>
-
+		{% endif %}
+		{% endfor%}
 	</div>
 </div>

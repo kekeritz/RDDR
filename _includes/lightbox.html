@@ -1,9 +1,26 @@
-<div class="preview row">
+<!-- <div class="preview row">
   {% for item in post.lightbox | array_to_sentence_string %}
   	
   	<div class="previewtile col-xl-1  col-md-2 col-xs-6">
   	  <a href="/RDDR/assets/images/{{ item }}" data-lightbox="{{ post.title }}">
-  	    <img class="previewimage" src="/RDDR/assets/images/thumbs/{{ item }}"/>
+  	    <img class="previewimage img-thumbnail" src="/RDDR/assets/images/thumbs/{{ item }}"/>
+  	  </a>
+  	</div>
+  {% endfor %}
+</div> -->
+
+<div class="preview row">
+  {% for item in post.lightbox | array_to_sentence_string %}
+
+  	
+  	<div class="previewtile col-xl-2  col-sm-4 col-xs-6">
+  	  <a
+  	  	href="/RDDR/assets/images/{{ item }}" 
+  	  	data-lightbox="{{ post.title }}"
+  	  	title=" {{ post.caption[forloop.index0] }}"
+  	  	>
+  	    <img class="previewimage img-rounded" src="/RDDR/assets/images/thumbs/{{ item }}"/>
+
   	  </a>
   	</div>
   {% endfor %}

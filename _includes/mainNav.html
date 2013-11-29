@@ -7,21 +7,20 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/RDDR/index.html">RDDR</a>
+			<a class="navbar-brand" href="/RDDR/">RDDR</a>
 		</div>
 		<!-- fix mobile collapse -->
 		<div class="navbar-collapse collapse in">
 			<ul class="nav navbar-nav">
-
-				<li><a href="/RDDR/RDDR-Einleitung.html">Einleitung</a></li>
-				<li><a href="/RDDR/RDDR-Analyse.html">Analyse</a></li>
-				<li><a href="/RDDR/RDDR-These.html">These</a></li>
-				<li><a href="/RDDR/RDDR-Methode.html">Methode</a></li>
-				<li><a href="/RDDR/RDDR-Glossar.html">Glossar</a></li>
-				<li><a href="/RDDR/RDDR-Impressum.html">Impressum</a></li>
-				<li><a href="/RDDR/RDDR-Gliederung.html">Gliederung</a></li>
-				<li><a href="/RDDR/RDDR-Linksammlung.html">Linksammlung</a></li>
-
+			{% for page in site.pages %}
+			{% if forloop.index0 > 0 %}
+				<li>
+					<a href="/RDDR/{{ page.url }}">
+						{{ page.title }}
+					</a>
+				</li>
+			{% endif %}
+			{% endfor %}
 			</ul>
 		</div>
 	</div>

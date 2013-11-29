@@ -18,6 +18,22 @@ Desktop-DesignRadar-11.png,
 Desktop-DesignRadar-Cluster-WP.png, 
 Desktop-DesignRadar-Objekt-WP.png
 ]
+caption: [
+Desktop-DesignRadar-00.png, 
+Desktop-DesignRadar-01.png, 
+Desktop-DesignRadar-02.png, 
+Desktop-DesignRadar-03.png, 
+Desktop-DesignRadar-04.png, 
+Desktop-DesignRadar-05.png, 
+Desktop-DesignRadar-06.png, 
+Desktop-DesignRadar-07.png, 
+Desktop-DesignRadar-08.png, 
+Desktop-DesignRadar-09.png, 
+Desktop-DesignRadar-10.png, 
+Desktop-DesignRadar-11.png, 
+Desktop-DesignRadar-Cluster-WP.png, 
+Desktop-DesignRadar-Objekt-WP.png
+]
 ---
 
 Das Werkzeug basiert derzeit auf einer Wordpress Installation, was durchaus ein guter Anfang ist, nach meiner Meinung jedoch auf lange Sicht, mehr Nach-, als Vorteile mit sich bringt. Ich denke, es eignet sich gut zum Befüllen einer Datenbank mit Designobjekten, die Vorkonfektioniertheit des Wordpress Frameworks schränkt aber die kreative Umsetzung von Werkzeugen, wie dem Design Radar, stark ein. Jegliche Interaktion fühlt sich sehr _bloggig_ an. 

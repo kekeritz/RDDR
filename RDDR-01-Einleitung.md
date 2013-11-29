@@ -2,5 +2,5 @@
 layout: loopPage
 title: Einleitung
 id: intro
-category: toplevel
+category: index
 ---

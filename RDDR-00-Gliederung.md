@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: developmentPage
 title: Gliederung
 category: order
 ---

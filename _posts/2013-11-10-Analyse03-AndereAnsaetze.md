@@ -32,6 +32,36 @@ Desktop-Poutsch-01.png,
 Desktop-Poutsch-02.png,
 Desktop-Poutsch-03.png
 ]
+caption: [
+Desktop-Tumblr-00.png,
+Desktop-Tumblr-01.png,
+Desktop-Tumblr-02.png,
+Desktop-Tumblr-03.png,
+Desktop-Tumblr-04.png,
+Desktop-Tumblr-05.png,
+Mobil-Tumblr-00.png,
+Mobil-Tumblr-01.png,
+Mobil-Tumblr-02.png,
+Mobil-Tumblr-03.png,
+Mobil-Tumblr-04.png,
+Desktop-Pinterest-00.png,
+Desktop-Pinterest-02.png,
+Desktop-Pinterest-03.png,
+Desktop-Pinterest-04.png,
+Desktop-Pinterest-05.png,
+Desktop-Pinterest-06.png,
+Desktop-Pinterest-07.png,
+Desktop-Pinterest-08.png,
+Desktop-Pinterest-09.png,
+Desktop-Pinterest-10.png,
+Mobil-Pinterest-00.png,
+Mobil-Pinterest-01.png,
+Mobil-Pinterest-02.png,
+Desktop-Poutsch-00.png,
+Desktop-Poutsch-01.png,
+Desktop-Poutsch-02.png,
+Desktop-Poutsch-03.png
+]
 ---
 
 Mir liegt nichts daran, den Design Radar in seiner jetzigen Konfiguration schlecht zu reden. Das Werkzeug wurde gebaut, um einen Anfang zu haben und dieser Aufgabe wird es auch gerecht. Mittlerweile hat sich aber auch so einiges getan, in Hinblick auf Web-Technologien im Allgemeinen und Plattformen, die ähnliches tun wie der Design Radar, im Besonderen.
