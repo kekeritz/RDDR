@@ -5,4 +5,4 @@ id: glossar
 category: toplevel
 ---
 
-> Alles, was auf den vorhergehenden Seiten so aufgetaucht ist.
+Alles, was auf den vorhergehenden Seiten so aufgetaucht ist.

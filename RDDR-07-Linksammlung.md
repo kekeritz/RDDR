@@ -4,7 +4,7 @@ title: Linksammlung
 category: link
 ---
 
-> Eine lose Linksammlung, über das was ich noch lesenswert finde.
+Eine lose Linksammlung, über das was ich noch lesenswert finde.
 
 +	 [Wikipedia: Trend](http://de.wikipedia.org/wiki/Trend_\(Soziologie\))
 +	 [Trendforschung 01](http://www.zukunftsinstitut.de/trendforschung)

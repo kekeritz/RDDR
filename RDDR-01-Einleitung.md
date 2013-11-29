@@ -5,4 +5,4 @@ id: intro
 category: index
 ---
 
-> Wieso ist das von Bedeutung?
+Wieso ist das von Bedeutung?

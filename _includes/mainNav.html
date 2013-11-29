@@ -12,7 +12,7 @@
 		<!-- fix mobile collapse -->
 		<div class="navbar-collapse collapse in">
 			<ul class="nav navbar-nav">
-			{% for page in site.pages %}
+			{% for page in site.pages | sort: ascending %}
 			{% if forloop.index0 > 0 %}
 				<li>
 					<a href="/RDDR{{ page.url }}">

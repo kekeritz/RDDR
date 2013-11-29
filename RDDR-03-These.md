@@ -5,4 +5,4 @@ id: thesis
 category: index
 ---
 
-> Die Formulierung meiner Behauptungen. 
+Die Formulierung meiner Behauptungen. 

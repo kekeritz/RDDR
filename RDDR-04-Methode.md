@@ -5,4 +5,4 @@ id: method
 category: index
 ---
 
-> Die schrittweise Verwirklichung meiner Thesen.
+Die schrittweise Verwirklichung meiner Thesen.
