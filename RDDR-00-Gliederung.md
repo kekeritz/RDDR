@@ -4,6 +4,8 @@ title: Gliederung
 category: order
 ---
 
+> Die Gliederung dient der allgemeinen Übersicht über die Struktur der Thesis.
+
 ## Einleitung
 
 ### Designforschung 
